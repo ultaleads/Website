@@ -1,0 +1,398 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    padding: 20px 0;
+    background-color: #000000;
+}
+
+header .nav-link{
+    font-weight: 700;
+    color: #fff !important;
+    font-size: 16px;
+}
+
+header .nav-link:hover{
+    color: #CC0066 !important;
+}
+
+header .nav-item{
+    margin-right: 20px;
+}
+.navbar-toggler-icon{
+    background-color: #fff;
+    border-radius: 2px;
+}
+
+.primary-btn a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #CC0066;
+    color: #fff;
+    border: 1px solid #CC0066;
+    font-weight: 700;
+    font-size: 12px;
+    padding: 8px 14px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    transition: 0.3s;
+}
+
+.primary-btn a:hover {
+    background-color: transparent;
+    border-color: #CC0066;
+    color: #CC0066;
+}
+
+/* banner start  */
+
+.banner {
+    padding: 110px 0 130px 0;
+    background-color: #000;
+}
+
+.banner h1 {
+    font-weight: 700;
+    font-size: 46px;
+    color: #CC0066;
+    margin-bottom: 20px;
+}
+
+.banner h2 {
+    font-weight: 500;
+    color: #fff;
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+
+.banner p {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/* banner end  */
+
+/* Client start  */
+
+.client {
+    padding: 50px 0;
+}
+
+.client h1 {
+    margin-bottom: 50px;
+    text-align: center;
+    font-weight: 700;
+    color: #000;
+    font-size: 30px;
+}
+
+.client h1 span {
+    color: #CC0066;
+}
+
+.client h2 {
+    margin-top: 50px;
+    margin-bottom: 0;
+    font-weight: 700;
+    color: #000;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+/* Client end */
+
+/* performance-model start  */
+
+.performance-model {
+    background-color: #000000;
+    padding: 80px 0;
+}
+
+.performance-model h1 {
+    margin-bottom: 20px;
+    font-weight: 700;
+    color: #fff;
+    font-size: 34px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.performance-model span {
+    color: #CC0066;
+}
+
+.performance-model p {
+    font-weight: 500;
+    color: #fff;
+    font-size: 20px;
+}
+
+/* performance-model end  */
+
+/* how-it-operate start  */
+
+.how-it-operate {
+    padding: 80px 0;
+}
+
+.how-it-operate h1 {
+    font-weight: 700;
+    color: #000;
+    font-size: 36px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.how-it-operate h1 span {
+    color: #CC0066;
+}
+
+.how-it-operate h2 {
+    margin-bottom: 80px;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.how-it-operate h3 {
+    font-weight: 700;
+    color: #000;
+    font-size: 26px;
+}
+
+.how-it-operate p {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 36px;
+}
+
+/* how-it-operate end  */
+
+/* case-study start  */
+
+.case-study {
+    padding: 80px 0;
+}
+
+.case-study h1 {
+    margin-bottom: 50px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 36px;
+    color: #000;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.case-study h1 span {
+    color: #CC0066;
+}
+
+.case-study a {
+    text-decoration: none;
+    color: #000 !important;
+}
+
+.single-case-study {
+    border-radius: 15px;
+    box-shadow: 0 0 20px #ddd;
+}
+
+.single-case-study img {
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.case-study-desc {
+    padding: 20px;
+}
+
+.case-study-desc h2 {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.read-more-btn a {
+    display: inline-block;
+    color: #CC0066 !important;
+}
+
+.case-study .primary-btn a {
+    color: #fff !important;
+}
+
+.case-study .primary-btn a:hover {
+    color: #CC0066 !important;
+}
+
+/* case-study end  */
+
+
+/* consultation start  */
+
+.consultation {
+    padding: 80px 0;
+    background-color: #000000;
+}
+
+.consultation h1 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 36px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.consultation h1 span {
+    color: #CC0066;
+}
+
+.consultation h2 {
+    text-align: center;
+    font-weight: 500;
+    color: #fff;
+    font-size: 20px;
+}
+
+iframe {
+    width: 100%;
+    height: 750px;
+    background-color: #000 !important;
+}
+
+/* consultation end  */
+
+/* about start  */
+
+.about {
+    padding: 80px 0;
+}
+
+.png-bg{
+	width: 600px;
+	top: 20px;
+	left: 60px;
+	z-index: -1;
+}
+.liq-first-img{
+	margin-top: 60px;
+}
+
+
+.about-left-head{
+    margin-top: 10px;
+    font-weight: 700;
+    color: #CC0066;
+    font-size: 26px;
+}
+
+.about-desc h2{
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 15px;
+    letter-spacing: 4px;
+}
+
+.about-desc h1 {
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 26px;
+    color: #000;
+}
+
+.about-desc h3{
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.leadership{
+    padding: 80px 0;
+}
+
+.leader-wrapper{
+    box-shadow: 0 0 20px #ddd;
+    border-radius: 8px;
+    padding: 30px 20px;
+}
+
+.leadership h2{
+    margin-bottom: 30px;
+    font-weight: 700;
+    color: #CC0066;
+    font-size: 26px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.leader-wrapper h3{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.leader-wrapper p{
+    margin-bottom: 0;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.leader-wrapper p a{
+    color: #CC0066;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+/*About End*/
+
+/*Faq start*/
+
+.faq {
+    padding: 80px 0;
+}
+
+.faq h1 {
+    margin-bottom: 50px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 36px;
+    color: #000;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.faq h1 span {
+    color: #CC0066;
+}
+
+
+.accordion-button:not(.collapsed) {
+    background-color: #e7f1ff;
+    box-shadow: none;
+    color: #242f51;
+    background-color: #f5f7fa;
+}
+
+.accordion-body {
+    background-color: #f5f7fa;
+    padding: 20px 50px 60px 50px;
+}
+
+.accordion-button {
+    font-weight: 700;
+    font-size: 18px;
+    color: #242f51;
+    background-color: #f5f7fa;
+    padding-left: 50px;
+}
+
+.accordion-button:focus {
+    border: 0;
+    outline: 0;
+    box-shadow: none;
+}
+
+/*Faq End*/
